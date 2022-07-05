@@ -11,6 +11,6 @@ namespace WcfWS_TPGestionStock.Model
         public string Nom { get; set; }
         public string Info { get; set; }
 
-        public ICollection<Article> Articles { get; set; }
+        //public IList<Article> Articles { get; set; }
     }
 }

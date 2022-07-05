@@ -25,7 +25,7 @@ namespace WcfWS_TPGestionStock
         bool SuppressionArticle(int id);
 
         [OperationContract]
-        ICollection<Article> GetArticles();
+        IList<Article> GetArticles();
 
         [OperationContract]
         Article RechercherArticlesById(int id);

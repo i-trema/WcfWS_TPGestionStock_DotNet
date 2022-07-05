@@ -30,6 +30,6 @@ namespace WcfWS_TPGestionStock
         ICollection<Categorie> RechercherCategoriesByMotCle(string nom);
 
         [OperationContract]
-        ICollection<Article> GetArticlesByCategorie(Categorie categorie);
+        ICollection<Article> GetArticlesByCategorie(int categorieId);
     }
 }

@@ -37,7 +37,7 @@ namespace WcfWS_TPGestionStock
             db.Articles.Add(article);
             return db.SaveChanges();
         }
-        public ICollection<Article> GetArticles()
+        public IList<Article> GetArticles()
         {
 
             var res = db.Articles.Include(x=>x.Categorie).ToList();
@@ -116,7 +116,8 @@ namespace WcfWS_TPGestionStock
 
         public ICollection<Categorie> GetCategories()
         {
-            var result = db.Categories.Include(x=>x.Articles).ToList();
+            //var result = db.Categories.Include(x=>x.Articles).ToList();
+            var result = db.Categories.ToList();
             return result;
         }
 
@@ -132,10 +133,10 @@ namespace WcfWS_TPGestionStock
                     select elt).ToList();
         }
 
-        public ICollection<Article> GetArticlesByCategorie(Categorie categorie)
+        public ICollection<Article> GetArticlesByCategorie(int categorieId)
         {
             return (from elt in db.Articles
-                    where elt.Categorie.Equals(categorie)
+                    where elt.Categorie.Id == categorieId
                     select elt).ToList();
         }
     }

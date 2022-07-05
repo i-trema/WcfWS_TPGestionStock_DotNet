@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\deploiement\TPGestionStock</_PublishTargetUrl>
+    <History>True|2022-07-05T14:34:20.0969918Z;True|2022-07-05T16:23:31.1065121+02:00;True|2022-07-05T14:55:04.8930913+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 22:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 22:38:56</publishTime>
+    </File>
+    <File Include="bin/WcfWS_TPGestionStock.dll">
+      <publishTime>07/05/2022 16:23:30</publishTime>
+    </File>
+    <File Include="bin/WcfWS_TPGestionStock.pdb">
+      <publishTime>07/05/2022 16:23:30</publishTime>
+    </File>
+    <File Include="GestionStock.svc">
+      <publishTime>07/05/2022 11:46:34</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/05/2022 16:34:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
