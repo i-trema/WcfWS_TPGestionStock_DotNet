@@ -1,0 +1,14 @@
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\bin\WcfWS_TPGestionStock.dll.config
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\bin\WcfWS_TPGestionStock.dll
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\bin\WcfWS_TPGestionStock.pdb
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\bin\EntityFramework.dll
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\bin\EntityFramework.SqlServer.dll
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\bin\EntityFramework.xml
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\bin\EntityFramework.SqlServer.xml
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\obj\Debug\WcfWS_TPGestionStock.csproj.AssemblyReference.cache
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\obj\Debug\WcfWS_TPGestionStock.csproj.CoreCompileInputs.cache
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\obj\Debug\WcfWS_TPGestionStock.csproj.CopyComplete
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\obj\Debug\WcfWS_TPGestionStock.dll
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\obj\Debug\WcfWS_TPGestionStock.pdb
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\obj\Debug\WcfWS_TPGestionStock.Migrations.initiale0.resources
+C:\Users\imau\Documents\FormationDoranco\27_CSharp_WebServices\J2\WcfWS_TP\WcfWS_TPGestionStock\obj\Debug\WcfWS_TPGestionStock.csproj.GenerateResource.cache
