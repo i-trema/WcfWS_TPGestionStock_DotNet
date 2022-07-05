@@ -8,6 +8,7 @@ using WcfWS_TPGestionStock.Model;
 
 namespace WcfWS_TPGestionStock
 {
+    [ServiceContract]
     public interface IGestionCategorie
     {
         [OperationContract]

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
@@ -28,12 +29,19 @@ namespace WcfWS_TPGestionStock
 
         public int AjoutArticle(Article article)
         {
+            Categorie categorieALier = db.Categories.Find(article.Categorie.Id);
+            if (categorieALier != null)
+            {
+                article.Categorie = categorieALier;
+            }
             db.Articles.Add(article);
             return db.SaveChanges();
         }
         public ICollection<Article> GetArticles()
         {
-            return db.Articles.ToList();
+
+            var res = db.Articles.Include(x=>x.Categorie).ToList();
+            return res;
         }
 
         public Article ModificationArticle(Article article)
@@ -108,22 +116,27 @@ namespace WcfWS_TPGestionStock
 
         public ICollection<Categorie> GetCategories()
         {
-            return db.Categories.ToList();
+            var result = db.Categories.Include(x=>x.Articles).ToList();
+            return result;
         }
 
         public Categorie RechercherCategoriesById(int id)
         {
-            throw new NotImplementedException();
+            return db.Categories.Find(id);
         }
 
         public ICollection<Categorie> RechercherCategoriesByMotCle(string nom)
         {
-            throw new NotImplementedException();
+            return (from elt in db.Categories
+                    where elt.Nom.Contains(nom)
+                    select elt).ToList();
         }
 
         public ICollection<Article> GetArticlesByCategorie(Categorie categorie)
         {
-            throw new NotImplementedException();
+            return (from elt in db.Articles
+                    where elt.Categorie.Equals(categorie)
+                    select elt).ToList();
         }
     }
 }

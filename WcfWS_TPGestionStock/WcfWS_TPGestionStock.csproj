@@ -72,22 +72,31 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Service1.svc" />
+    <Content Include="GestionStock.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IGestionCategorie.cs" />
     <Compile Include="Migrations\202207050936232_initiale0.cs" />
     <Compile Include="Migrations\202207050936232_initiale0.designer.cs">
       <DependentUpon>202207050936232_initiale0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207051153125_initiale1.cs" />
+    <Compile Include="Migrations\202207051153125_initiale1.designer.cs">
+      <DependentUpon>202207051153125_initiale1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207051204185_initiale2.cs" />
+    <Compile Include="Migrations\202207051204185_initiale2.designer.cs">
+      <DependentUpon>202207051204185_initiale2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Article.cs" />
     <Compile Include="Model\Categorie.cs" />
     <Compile Include="Model\DbGestionContext.cs" />
-    <Compile Include="Service1.svc.cs">
-      <DependentUpon>Service1.svc</DependentUpon>
+    <Compile Include="GestionStock.svc.cs">
+      <DependentUpon>GestionStock.svc</DependentUpon>
     </Compile>
-    <Compile Include="IService1.cs" />
+    <Compile Include="IGestionStock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +114,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202207050936232_initiale0.resx">
       <DependentUpon>202207050936232_initiale0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207051153125_initiale1.resx">
+      <DependentUpon>202207051153125_initiale1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207051204185_initiale2.resx">
+      <DependentUpon>202207051204185_initiale2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

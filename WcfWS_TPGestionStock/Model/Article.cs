@@ -13,6 +13,6 @@ namespace WcfWS_TPGestionStock.Model
 
         public double? Prix { get; set; }
 
-        public virtual Categorie Categorie { get; set; }
+        public Categorie Categorie { get; set; }
     }
 }
